@@ -39,3 +39,8 @@ export interface CodeBlockProps {
   code: string;
   language?: string;
 }
+
+export interface DeveloperSidebarData{
+  activeTab:string;
+  onTabChange:(id:string)=>void;
+}
